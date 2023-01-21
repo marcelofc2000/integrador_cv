@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+* h1{
+    font-size: 30px    ;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* h2{
+    font-size: 25px;
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contenedor{
+    border: black 5px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px;
+    margin: 10px;
+}
+
+.cabecera{
+    border: red 5px solid;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 95%;
+    height: 20vh;
+}
+
+.foto{
+    border: solid black 5px;
+    display: flex;   
+    background-color: goldenrod;
+    width: 25%;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.foto img{
+        width: 30%;
+        height: auto;
+}
+
+.subcabecera{
+    background-color: aqua;
+    border: solid 5px black;
+    margin: 10px;
+    padding: 10px;
+    width: 75%;
+}
+
+.cuerpo{
+    border: solid black 5px;
+    height: 80vh;
+    background-color: blueviolet;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+
+.columnaA{
+    border: solid black 5px;
+    /* height: 100%; */
+    width: 33%;
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion{
+    border: solid black 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: yellowgreen;
+    height: 50%;
+}
+
+.contacto{
+    border: solid black 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.otraColumna{
+    border: solid black 5px;
+    /* height: 100%; */
+    width: 33%;
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+*************************************
+VER TEMA DE COLUMNAS USANDO BOOTSTRAP
+*************************************
+*/
+
+
+
+/* 
+.contenedor{
+    border: solid black 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "foto cabecera cabecera"
+    "presentacion laboral estudios"
+    "contacto laboral estudios";
+    background-color: gray;
+}
+
+
+
+
+.cabecera{
+    color: blue;
+    grid-area: "titulo";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20vh;
+    width: 95%;
+}
+
+.presentacion{
+    border: yellow 5px solid;
+    grid-area: "presentacion";
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+.contacto{
+   background-color: aqua;
+}
+
+.laboral{
+    grid-area: "laboral";
+    height: 80vh;
+}
+
+.estudios{
+    grid-area: "estudios";
+    height: 80vh;
+}
+ */
